@@ -1,4 +1,5 @@
 github "aventurella/ZipArchive" "new"
+github "github "Alamofire/Alamofire"
 
 # original forked version has issues as well
 # github "ZipArchive/ZipArchive" "master"
