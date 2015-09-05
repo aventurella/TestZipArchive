@@ -1,4 +1,4 @@
-github "aventurella/ZipArchive" "carthage-issues"
+github "aventurella/ZipArchive" "new"
 
 # original forked version has issues as well
 # github "ZipArchive/ZipArchive" "master"
