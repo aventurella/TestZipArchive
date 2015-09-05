@@ -1,1 +1,2 @@
-github "aventurella/ZipArchive" "new"
+# github "aventurella/ZipArchive" "new"
+github "ZipArchive/ZipArchive" "master"
