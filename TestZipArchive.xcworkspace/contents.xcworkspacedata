@@ -5,7 +5,7 @@
       location = "container:"
       name = "Dependencies">
       <FileRef
-         location = "group:Carthage/Checkouts/ZipArchive/ZipArchive/ZipArchive.xcodeproj">
+         location = "group:../ZipArchive/ZipArchive/ZipArchive.xcodeproj">
       </FileRef>
    </Group>
    <FileRef
