@@ -8,10 +8,16 @@
 
 import Foundation
 import ZipArchive
+import ReactiveCocoa
 
 public struct Unzip{
 
     public static func Unzip(from: String, to: String){
         Archive.unzipFileAtPath(from, toDestination: to)
+    }
+
+    public static func sp() -> SignalProducer<String, NoError>{
+        return SignalProducer<String, NoError>{ _, _ in
+        }
     }
 }

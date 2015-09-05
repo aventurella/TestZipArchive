@@ -5,7 +5,22 @@
       location = "container:"
       name = "Dependencies">
       <FileRef
-         location = "group:../ZipArchive/ZipArchive/ZipArchive.xcodeproj">
+         location = "group:Carthage/Checkouts/ZipArchive/ZipArchive/ZipArchive.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:Carthage/Checkouts/SwiftyJSON/SwiftyJSON.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:Carthage/Checkouts/Result/Result.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:Carthage/Checkouts/ReactiveCocoa/ReactiveCocoa.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:Carthage/Checkouts/Box/Box.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:Carthage/Checkouts/Alamofire/Alamofire.xcodeproj">
       </FileRef>
    </Group>
    <FileRef
