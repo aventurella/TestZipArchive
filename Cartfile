@@ -1,5 +1,6 @@
 github "aventurella/ZipArchive" "new"
 github "Alamofire/Alamofire"
+github "SwiftyJSON/SwiftyJSON"
 
 # original forked version has issues as well
 # github "ZipArchive/ZipArchive" "master"
