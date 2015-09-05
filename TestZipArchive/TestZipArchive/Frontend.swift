@@ -12,6 +12,6 @@ import ZipArchive
 public struct Unzip{
 
     public static func Unzip(from: String, to: String){
-        Main.unzipFileAtPath(from, toDestination: to)
+        Archive.unzipFileAtPath(from, toDestination: to)
     }
 }

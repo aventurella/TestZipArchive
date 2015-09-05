@@ -11,7 +11,7 @@
 		232080431B9B220D006DABB6 /* TestZipArchive.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 232080371B9B220D006DABB6 /* TestZipArchive.framework */; };
 		2320804A1B9B220D006DABB6 /* TestZipArchiveTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 232080491B9B220D006DABB6 /* TestZipArchiveTests.swift */; };
 		232080541B9B22CF006DABB6 /* Frontend.swift in Sources */ = {isa = PBXBuildFile; fileRef = 232080531B9B22CF006DABB6 /* Frontend.swift */; };
-		232080561B9B23E1006DABB6 /* ZipArchive.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 232080551B9B23E1006DABB6 /* ZipArchive.framework */; };
+		232080C41B9B4485006DABB6 /* ZipArchive.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 232080C31B9B4485006DABB6 /* ZipArchive.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,7 +32,7 @@
 		232080481B9B220D006DABB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		232080491B9B220D006DABB6 /* TestZipArchiveTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestZipArchiveTests.swift; sourceTree = "<group>"; };
 		232080531B9B22CF006DABB6 /* Frontend.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Frontend.swift; sourceTree = "<group>"; };
-		232080551B9B23E1006DABB6 /* ZipArchive.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ZipArchive.framework; path = "../Carthage/Checkouts/ZipArchive/build/Debug-iphoneos/ZipArchive.framework"; sourceTree = "<group>"; };
+		232080C31B9B4485006DABB6 /* ZipArchive.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ZipArchive.framework; path = "../Carthage/Checkouts/ZipArchive/ZipArchive/build/Debug-iphoneos/ZipArchive.framework"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,7 +40,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				232080561B9B23E1006DABB6 /* ZipArchive.framework in Frameworks */,
+				232080C41B9B4485006DABB6 /* ZipArchive.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,7 +58,7 @@
 		2320802D1B9B220D006DABB6 = {
 			isa = PBXGroup;
 			children = (
-				232080551B9B23E1006DABB6 /* ZipArchive.framework */,
+				232080C31B9B4485006DABB6 /* ZipArchive.framework */,
 				232080391B9B220D006DABB6 /* TestZipArchive */,
 				232080461B9B220D006DABB6 /* TestZipArchiveTests */,
 				232080381B9B220D006DABB6 /* Products */,
@@ -337,7 +337,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/aventurella/github/TestZipArchive/Carthage/Checkouts/ZipArchive/ZipArchive/build/Debug-iphoneos",
+				);
 				INFOPLIST_FILE = TestZipArchive/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -357,7 +360,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/aventurella/github/TestZipArchive/Carthage/Checkouts/ZipArchive/ZipArchive/build/Debug-iphoneos",
+				);
 				INFOPLIST_FILE = TestZipArchive/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
