@@ -11,7 +11,6 @@
 		232080431B9B220D006DABB6 /* TestZipArchive.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 232080371B9B220D006DABB6 /* TestZipArchive.framework */; };
 		2320804A1B9B220D006DABB6 /* TestZipArchiveTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 232080491B9B220D006DABB6 /* TestZipArchiveTests.swift */; };
 		232080541B9B22CF006DABB6 /* Frontend.swift in Sources */ = {isa = PBXBuildFile; fileRef = 232080531B9B22CF006DABB6 /* Frontend.swift */; };
-		2320818B1B9BA6E7006DABB6 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 232081851B9BA6E7006DABB6 /* Alamofire.framework */; };
 		2320818F1B9BA6E7006DABB6 /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 232081891B9BA6E7006DABB6 /* SwiftyJSON.framework */; };
 		232081901B9BA6E7006DABB6 /* ZipArchive.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2320818A1B9BA6E7006DABB6 /* ZipArchive.framework */; };
 /* End PBXBuildFile section */
@@ -34,7 +33,6 @@
 		232080481B9B220D006DABB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		232080491B9B220D006DABB6 /* TestZipArchiveTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestZipArchiveTests.swift; sourceTree = "<group>"; };
 		232080531B9B22CF006DABB6 /* Frontend.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Frontend.swift; sourceTree = "<group>"; };
-		232081851B9BA6E7006DABB6 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = "../Carthage/Checkouts/Alamofire/build/Debug-iphoneos/Alamofire.framework"; sourceTree = "<group>"; };
 		232081891B9BA6E7006DABB6 /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyJSON.framework; path = "../Carthage/Checkouts/SwiftyJSON/build/Debug-iphoneos/SwiftyJSON.framework"; sourceTree = "<group>"; };
 		2320818A1B9BA6E7006DABB6 /* ZipArchive.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ZipArchive.framework; path = "../Carthage/Checkouts/ZipArchive/ZipArchive/build/Debug-iphoneos/ZipArchive.framework"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -44,7 +42,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2320818B1B9BA6E7006DABB6 /* Alamofire.framework in Frameworks */,
 				2320818F1B9BA6E7006DABB6 /* SwiftyJSON.framework in Frameworks */,
 				232081901B9BA6E7006DABB6 /* ZipArchive.framework in Frameworks */,
 			);
@@ -64,7 +61,6 @@
 		2320802D1B9B220D006DABB6 = {
 			isa = PBXGroup;
 			children = (
-				232081851B9BA6E7006DABB6 /* Alamofire.framework */,
 				232081891B9BA6E7006DABB6 /* SwiftyJSON.framework */,
 				2320818A1B9BA6E7006DABB6 /* ZipArchive.framework */,
 				232080391B9B220D006DABB6 /* TestZipArchive */,
