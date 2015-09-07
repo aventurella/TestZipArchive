@@ -8,7 +8,8 @@
 
 import Foundation
 import ZipArchive
-import ReactiveCocoa
+import Alamofire
+import SwiftyJSON
 
 public struct Unzip{
 
@@ -16,8 +17,17 @@ public struct Unzip{
         Archive.unzipFileAtPath(from, toDestination: to)
     }
 
-    public static func sp() -> SignalProducer<String, NoError>{
-        return SignalProducer<String, NoError>{ _, _ in
-        }
+    public static func request(url: String){
+        Alamofire.request(.GET, url)
+
     }
+
+    public static func request(data: NSData) -> JSON{
+        return JSON(data: data)
+    }
+
+//    public static func sp() -> SignalProducer<String, NoError>{
+//        return SignalProducer<String, NoError>{ _, _ in
+//        }
+//    }
 }
