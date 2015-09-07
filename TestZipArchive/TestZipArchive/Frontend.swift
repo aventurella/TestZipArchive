@@ -7,20 +7,20 @@
 //
 
 import Foundation
-//import ZipArchive
-import Alamofire
+import ZipArchive
+//import Alamofire
 import SwiftyJSON
 
 public struct Unzip{
 
-//    public static func Unzip(from: String, to: String){
-//        Archive.unzipFileAtPath(from, toDestination: to)
-//    }
-
-    public static func request(url: String){
-        Alamofire.request(.GET, url)
-
+    public static func Unzip(from: String, to: String){
+        Archive.unzipFileAtPath(from, toDestination: to)
     }
+
+//    public static func request(url: String){
+//        Alamofire.request(.GET, url)
+//
+//    }
 
     public static func request(data: NSData) -> JSON{
         return JSON(data: data)
