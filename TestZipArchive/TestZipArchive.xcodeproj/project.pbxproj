@@ -13,28 +13,6 @@
 		232080541B9B22CF006DABB6 /* Frontend.swift in Sources */ = {isa = PBXBuildFile; fileRef = 232080531B9B22CF006DABB6 /* Frontend.swift */; };
 		2320818F1B9BA6E7006DABB6 /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 232081891B9BA6E7006DABB6 /* SwiftyJSON.framework */; };
 		232081901B9BA6E7006DABB6 /* ZipArchive.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2320818A1B9BA6E7006DABB6 /* ZipArchive.framework */; };
-		23FC35FF1B9D314C00456C95 /* Common.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 23FC35E41B9D314C00456C95 /* Common.xcconfig */; };
-		23FC36001B9D314C00456C95 /* Debug.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 23FC35E61B9D314C00456C95 /* Debug.xcconfig */; };
-		23FC36011B9D314C00456C95 /* Profile.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 23FC35E71B9D314C00456C95 /* Profile.xcconfig */; };
-		23FC36021B9D314C00456C95 /* Release.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 23FC35E81B9D314C00456C95 /* Release.xcconfig */; };
-		23FC36031B9D314C00456C95 /* Test.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 23FC35E91B9D314C00456C95 /* Test.xcconfig */; };
-		23FC36041B9D314C00456C95 /* Application.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 23FC35EB1B9D314C00456C95 /* Application.xcconfig */; };
-		23FC36051B9D314C00456C95 /* Framework.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 23FC35EC1B9D314C00456C95 /* Framework.xcconfig */; };
-		23FC36061B9D314C00456C95 /* StaticLibrary.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 23FC35ED1B9D314C00456C95 /* StaticLibrary.xcconfig */; };
-		23FC36071B9D314C00456C95 /* iOS-Application.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 23FC35EF1B9D314C00456C95 /* iOS-Application.xcconfig */; };
-		23FC36081B9D314C00456C95 /* iOS-Base.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 23FC35F01B9D314C00456C95 /* iOS-Base.xcconfig */; };
-		23FC36091B9D314C00456C95 /* iOS-Framework.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 23FC35F11B9D314C00456C95 /* iOS-Framework.xcconfig */; };
-		23FC360A1B9D314C00456C95 /* iOS-StaticLibrary.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 23FC35F21B9D314C00456C95 /* iOS-StaticLibrary.xcconfig */; };
-		23FC360B1B9D314C00456C95 /* Mac-Application.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 23FC35F41B9D314C00456C95 /* Mac-Application.xcconfig */; };
-		23FC360C1B9D314C00456C95 /* Mac-Base.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 23FC35F51B9D314C00456C95 /* Mac-Base.xcconfig */; };
-		23FC360D1B9D314C00456C95 /* Mac-DynamicLibrary.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 23FC35F61B9D314C00456C95 /* Mac-DynamicLibrary.xcconfig */; };
-		23FC360E1B9D314C00456C95 /* Mac-Framework.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 23FC35F71B9D314C00456C95 /* Mac-Framework.xcconfig */; };
-		23FC360F1B9D314C00456C95 /* Mac-StaticLibrary.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 23FC35F81B9D314C00456C95 /* Mac-StaticLibrary.xcconfig */; };
-		23FC36101B9D314C00456C95 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 23FC35F91B9D314C00456C95 /* README.md */; };
-		23FC36111B9D314C00456C95 /* watchOS-Application.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 23FC35FB1B9D314C00456C95 /* watchOS-Application.xcconfig */; };
-		23FC36121B9D314C00456C95 /* watchOS-Base.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 23FC35FC1B9D314C00456C95 /* watchOS-Base.xcconfig */; };
-		23FC36131B9D314C00456C95 /* watchOS-Framework.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 23FC35FD1B9D314C00456C95 /* watchOS-Framework.xcconfig */; };
-		23FC36141B9D314C00456C95 /* watchOS-StaticLibrary.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 23FC35FE1B9D314C00456C95 /* watchOS-StaticLibrary.xcconfig */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -325,27 +303,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				23FC36121B9D314C00456C95 /* watchOS-Base.xcconfig in Resources */,
-				23FC36021B9D314C00456C95 /* Release.xcconfig in Resources */,
-				23FC360E1B9D314C00456C95 /* Mac-Framework.xcconfig in Resources */,
-				23FC36011B9D314C00456C95 /* Profile.xcconfig in Resources */,
-				23FC360A1B9D314C00456C95 /* iOS-StaticLibrary.xcconfig in Resources */,
-				23FC36061B9D314C00456C95 /* StaticLibrary.xcconfig in Resources */,
-				23FC36081B9D314C00456C95 /* iOS-Base.xcconfig in Resources */,
-				23FC36001B9D314C00456C95 /* Debug.xcconfig in Resources */,
-				23FC35FF1B9D314C00456C95 /* Common.xcconfig in Resources */,
-				23FC36131B9D314C00456C95 /* watchOS-Framework.xcconfig in Resources */,
-				23FC36051B9D314C00456C95 /* Framework.xcconfig in Resources */,
-				23FC360B1B9D314C00456C95 /* Mac-Application.xcconfig in Resources */,
-				23FC36141B9D314C00456C95 /* watchOS-StaticLibrary.xcconfig in Resources */,
-				23FC360C1B9D314C00456C95 /* Mac-Base.xcconfig in Resources */,
-				23FC36111B9D314C00456C95 /* watchOS-Application.xcconfig in Resources */,
-				23FC36031B9D314C00456C95 /* Test.xcconfig in Resources */,
-				23FC360F1B9D314C00456C95 /* Mac-StaticLibrary.xcconfig in Resources */,
-				23FC36041B9D314C00456C95 /* Application.xcconfig in Resources */,
-				23FC360D1B9D314C00456C95 /* Mac-DynamicLibrary.xcconfig in Resources */,
-				23FC36091B9D314C00456C95 /* iOS-Framework.xcconfig in Resources */,
-				23FC36071B9D314C00456C95 /* iOS-Application.xcconfig in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -363,7 +320,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				23FC36101B9D314C00456C95 /* README.md in Sources */,
 				232080541B9B22CF006DABB6 /* Frontend.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -488,7 +444,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/../Carthage/Build/iOS/**";
+				FRAMEWORK_SEARCH_PATHS = "";
 				INFOPLIST_FILE = TestZipArchive/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -508,7 +464,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/../Carthage/Build/iOS/**";
+				FRAMEWORK_SEARCH_PATHS = "";
 				INFOPLIST_FILE = TestZipArchive/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
